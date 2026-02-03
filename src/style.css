@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+.heading-style-h1 {
+    font-variation-settings: "wght" 450;
+    font-size: 7vw;
+    line-height: .9;
+}
+
+
+
+.heading-3 {
+    font-size: 36px;
+    font-size: clamp(36px, 15.5774647887px + 4.0845070423vw, 94px);
+    line-height: 100%;
+}
+
+.heading-6 {
+    margin-bottom: 1em;
+    font-size: 22px;
+    font-size: clamp(22px, 13.5492957746px + 1.6901408451vw, 46px);
+    line-height: 130%;
+    font-weight: 300;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+/* beb7a4 */
+
+@theme {
+
+  --color-primary: #e1e1e1;
+  --color-secondary: #1a1919;
+  --color-text-primary: #202020;
+  --color-text-secondary: #e1e1e1;
+
+
+  --shadow-shadow-s: inset 0 1px 2px #ffffff30,
+     0 1px 2px #00000030,
+     0 2px 4px #00000015; 
+
+  --shadow-shadow-m: inset 0 1px 2px #ffffff50,
+     0 2px 4px #00000030,
+     0 4px 8px #00000015; 
+
+  --shadow-shadow-l: inset 0 1px 2px #ffffff70,
+     0 4px 6px #00000030,
+     0 6px 10px #00000015; 
+}
