@@ -43,9 +43,11 @@ const Navbar = () => {
     
 
   return (
-    <header className={`fixed z-50 w-full border-b border-white/20 ${navbarTheme === "primary" ? "bg-primary text-text-primary" : "bg-secondary text-text-secondary"}`}>
+    <header className={`fixed z-50 w-full  ${navbarTheme === "primary" ? "bg-primary text-text-primary" : "bg-secondary text-text-secondary"}`}>
         <div className='container mx-auto flex items-center justify-between px-4 sm:px-6 lsg:px-8 h-16'>
-            <div className="font-semibold">ManosNikitakis</div>
+            <div className="font-semibold">
+              <a href="#">ManosNikitakis</a>
+            </div>
 
             <nav className="hidden md:flex gap-8">
                 <a href="#projects">Projects</a>
@@ -59,7 +61,7 @@ const Navbar = () => {
                 aria-label="Toggle menu"
             >
                 <div className="w-7 h-2 flex flex-col justify-between">
-                    <span className={`w-full h-0.5 ${isOpen ? 'transition-all duration-300 rotate-45 translate-y-[5px]' : ''} ${navbarTheme === "primary" ? "bg-secondary" : "bg-primary"}`}></span>
+                    <span className={`w-full h-0.5 ${isOpen ? 'transition-all duration-300 rotate-45 translate-y-1.25' : ''} ${navbarTheme === "primary" ? "bg-secondary" : "bg-primary"}`}></span>
                     <span className={`w-full h-0.5 ${isOpen ? '-rotate-45 translate-y-[-1.5px] transition-all duration-300' : ''} ${navbarTheme === "primary" ? " bg-secondary" : "bg-primary"}`}></span>
                 </div>
             </button>
