@@ -26,8 +26,7 @@ const Education = () => {
         const scrollPercentage = Math.min(Math.max((scrollInContainer / containerHeight) * 100, 0), 100);
         
         lineRef.current.style.height = `${scrollPercentage}%`;
-
-   
+  
         const fillBall = (
           ballRef: React.RefObject<HTMLDivElement | null>,
           fillRef: React.RefObject<HTMLDivElement | null>
