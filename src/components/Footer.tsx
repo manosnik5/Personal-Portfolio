@@ -1,4 +1,4 @@
-import { SOCIAL_LINKS, CV_LINK } from "../constants"
+import { SOCIAL_LINKS } from "../constants"
 
 const Footer = () => {
   return (
