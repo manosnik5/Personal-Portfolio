@@ -1,6 +1,3 @@
-import { motion } from "framer-motion"
-
-
 function App() {
 
   return (
@@ -8,13 +5,11 @@ function App() {
      <h1 className="heading-style-h1">MANOS NIKITAKIS</h1>
      <h3 className="heading-6">A recent university graduate showcasing projects across front-end and back-end development, with a focus on building practical and well-structured digital experiences.</h3>
      <a
-              href="#projects"
-              className="cursor-pointer bg-[#222] text-white py-2 px-4 rounded-sm mt-40"
-    
-            >
-              click
-            </a>
-             
+      href="#projects"
+      className="cursor-pointer bg-[#222] text-white py-2 px-4 rounded-sm mt-40"
+      >
+      View work
+      </a>        
     </div>
   )
 }
