@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './main.css'
+import './style.css';
 import Navbar from './components/Navbar.tsx'
 import Projects from './components/Projects.tsx'
 import Education from './components/Education.tsx'
