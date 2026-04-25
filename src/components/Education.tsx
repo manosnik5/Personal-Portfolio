@@ -28,7 +28,10 @@ const Education = () => {
         lineRef.current.style.height = `${scrollPercentage}%`;
 
    
-        const fillBall = (ballRef: React.RefObject<HTMLDivElement>, fillRef: React.RefObject<HTMLDivElement>) => {
+        const fillBall = (
+          ballRef: React.RefObject<HTMLDivElement | null>,
+          fillRef: React.RefObject<HTMLDivElement | null>
+        ) => {
           if (ballRef.current && fillRef.current && containerRef.current) {
             const ballRect = ballRef.current.getBoundingClientRect();
             const ballTop = ballRef.current.offsetTop;
@@ -53,7 +56,7 @@ const Education = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-primary py-16 pb-50 px-4">
+    <div className="min-h-screen bg-primary py-16 pb-50 px-4" id="education">
       <div className="max-w-6xl mx-auto ">
         <h1 className="heading-style-h1 pb-20 md:pb-30 text-text-primary text-center">Education</h1>
         <div ref={containerRef} className="relative">
