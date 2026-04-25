@@ -10,17 +10,7 @@ const Footer = () => {
               <img src={social.icon} alt="social_media" className="md:w-8.75 md:h-8.75 w-6.75 h-6.75 object-contain cursor-pointer hover:opacity-70" />
             </a>
           ))}
-        </div>
-        <a 
-          href={CV_LINK.href}
-          download
-          className="flex items-center gap-2 mt-6 px-4 py-2 border border-white/20 rounded-sm text-sm text-white/70 hover:text-white hover:border-white/50 transition-all duration-200"
-        >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-            <path d="M12 3v13M7 11l5 5 5-5M5 21h14" />
-          </svg>
-            {CV_LINK.label}
-        </a>
+        </div>     
         <div className="flex items-center gap-3 text-caption pt-5">
           <span>© 2026 Manos Nikitakis. All rights reserved. </span>
         </div>
