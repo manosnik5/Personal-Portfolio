@@ -1,4 +1,4 @@
-import {united_kingdom_logo, france_logo, unipi_logo, github_logo, email_logo, linkedin_logo} from './assets/index.js'
+import {united_kingdom_logo, france_logo, unipi_logo, github_logo, linkedin_logo} from './assets/index.ts'
 
 export interface Experience {
     title: string,
@@ -36,13 +36,13 @@ export const SOCIAL_LINKS = [
     link: "https://github.com/manos500",
   },
   {
-    id: "linkedin",
+    title: "linkedin",
     icon: linkedin_logo,
     link: "https://github.com/manos500",
   },
-  {
-    id: "email",
-    icon: email_logo,
-    link: "https://github.com/manos500",
-  },
 ];
+
+export const CV_LINK = {
+  label: "Download CV",
+  href: "/cv/manos-nikitakis-cv.pdf",
+}
