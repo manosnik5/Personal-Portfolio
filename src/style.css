@@ -6,8 +6,6 @@
     line-height: .9;
 }
 
-
-
 .heading-3 {
     font-size: 36px;
     font-size: clamp(36px, 15.5774647887px + 4.0845070423vw, 94px);
